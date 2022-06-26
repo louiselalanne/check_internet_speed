@@ -28,6 +28,6 @@ def speedCheck():
     label_upload_speed['text'] = str(upload_speed) + "mbps"
     
 
-btn_doctor = Button(root, text="Check Speed", command=speedCheck,bg="#218796", fg="white",relief = FLAT, padx=15,pady=8,  font=("Lucida Sans Unicode", 10))
-btn_doctor.place(relx=0.5, rely=0.3,anchor=CENTER)
+btn = Button(root, text="Check Speed", command=speedCheck,bg="#218796", fg="white",relief = FLAT, padx=15,pady=8,  font=("Lucida Sans Unicode", 10))
+btn.place(relx=0.5, rely=0.3,anchor=CENTER)
 root.mainloop()
